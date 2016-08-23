@@ -25,5 +25,5 @@ GRANT
 CONNECT imdb/bjarne;
 
 -- (Re)Create the database.
-DEFINE imdb=c:\projects\cs342\kvlinden\src\databases\imdb
+DEFINE imdb=D:\projects\cs342\code\databases\imdb
 @&imdb\load

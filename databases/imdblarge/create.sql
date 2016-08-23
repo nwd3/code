@@ -23,7 +23,7 @@ GRANT
 -- Use Oracle directories for input/output files to avoid permissions problems. (?)
 -- This is needed both to create and to load the *.dmp files.
 DROP DIRECTORY exp_dir;
-CREATE DIRECTORY exp_dir AS 'C:\projects\cs342\cs342-resources\databases\imdbLarge';
+CREATE DIRECTORY exp_dir AS 'D:\projects\cs342\cs342-resources\databases\imdbLarge';
 GRANT READ, WRITE ON DIRECTORY exp_dir to imdbLarge;
 
 -- Load the database from the dump file using:

@@ -22,5 +22,5 @@ GRANT
 CONNECT cpdb/bjarne;
 
 -- Create the database.
-DEFINE cpdb=c:\projects\cs342\kvlinden\src\databases\cpdb
+DEFINE cpdb=D:\projects\cs342\code\databases\cpdb
 @&cpdb\load

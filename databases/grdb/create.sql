@@ -22,5 +22,5 @@ GRANT
 CONNECT grdb/bjarne;
 
 -- (Re)Create the database.
-DEFINE grdb=c:\projects\cs342\kvlinden\src\databases\grdb
+DEFINE grdb=D:\projects\cs342\code\databases\grdb
 @&grdb\load

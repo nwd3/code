@@ -22,5 +22,5 @@ GRANT
 CONNECT cpdbTest/bjarne;
 
 -- Create the database (schema only).
-DEFINE cpdbTest=c:\projects\cs342\kvlinden\src\databases\cpdbTest
+DEFINE cpdbTest=D:\projects\cs342\code\databases\cpdbTest
 @&cpdbTest\load
