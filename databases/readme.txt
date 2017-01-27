@@ -1,5 +1,5 @@
 These folders contain command files for loading the sample Oracle databases
-used in CS 342. 
+used in CS 342, Calvin College.
 
 The databases are as follows:
 	cpdb - The Centrepointe Church database is a database of church members and families.
