@@ -1,7 +1,7 @@
 -- Lab 2, do-this
 CREATE
     USER kvlinden
-    IDENTIFIED BY bjarne;
+    IDENTIFIED BY YOUR_PASSWORD;
 
 GRANT
     CREATE SESSION,
