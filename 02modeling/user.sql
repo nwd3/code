@@ -1,0 +1,13 @@
+-- Lab 2, do-this
+CREATE
+    USER kvlinden
+    IDENTIFIED BY bjarne;
+
+GRANT
+    CREATE SESSION,
+    CREATE TABLE,
+    CREATE VIEW,
+    CREATE MATERIALIZED VIEW,
+    UNLIMITED TABLESPACE,
+    CREATE SEQUENCE
+    TO kvlinden;
